@@ -40,7 +40,7 @@ function App() {
   } = useBaseMergeGame();
   const queryClient = useQueryClient();
   const { address, isConnected } = useAccount();
-  const { connect, connectors, status: connectStatus } = useConnect();
+  const { connectAsync, connectors, status: connectStatus } = useConnect();
   const { signMessageAsync, isPending: isSigning } = useSignMessage();
   const [leaderboardWindow, setLeaderboardWindow] = useState<LeaderboardWindow>("daily");
   const leaderboardQuery = useLeaderboard(leaderboardWindow);
@@ -61,13 +61,15 @@ function App() {
     return `${primaryConnector.name} ile bağlan`;
   }, [connectStatus, primaryConnector]);
 
-  const handleConnect = () => {
+  const handleConnect = async () => {
     if (!primaryConnector || connectStatus === "pending") {
       return;
     }
-    connect({ connector: primaryConnector }).catch(() => {
+    try {
+      await connectAsync({ connector: primaryConnector });
+    } catch {
       // kullanıcı tekrar deneyebilir
-    });
+    }
   };
 
   const handleSubmitScore = async () => {
