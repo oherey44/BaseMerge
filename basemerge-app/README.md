@@ -2,6 +2,17 @@ This is a [Vite](https://vitejs.dev) project bootstrapped with [`@farcaster/crea
 
 For documentation and guides, visit [miniapps.farcaster.xyz](https://miniapps.farcaster.xyz/docs/getting-started).
 
+## Yapılandırma
+
+Mini uygulama, Next.js tabanlı ana web sürümünü veri/asset kaynağı olarak kullanır. Aşağıdaki
+ortam değişkenlerini `.env` dosyasıyla ayarlayarak farklı ortamlara yönlendirebilirsiniz:
+
+| Değişken | Açıklama | Varsayılan |
+| --- | --- | --- |
+| `VITE_WEB_API_BASE` | Skor gönderimi ve liderlik tablosu için çağrılan BaseMerge web API origin’i | `https://base-merge.vercel.app` |
+| `VITE_WEB_ASSET_BASE` | Token görselleri gibi statik asset’lerin alındığı origin | `https://base-merge.vercel.app` |
+| `VITE_SEASON_ID` | İmzalanan skor mesajında kullanılan sezon etiketi | `season-1` |
+
 ## Base + Farcaster manifests
 
 Both Base App and Farcaster Mini Apps read their metadata from the
