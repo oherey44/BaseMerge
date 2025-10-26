@@ -1,1 +1,20 @@
-{}
+{
+  "frame": {
+    "name": "Base Merge",
+    "homeUrl": "https://base-merge.vercel.app",
+    "iconUrl": "https://base-merge.vercel.app/icon.svg",
+    "version": "1",
+    "imageUrl": "https://base-merge.vercel.app/image.svg",
+    "subtitle": "Base",
+    "webhookUrl": "https://base-merge.vercel.app/api/webhook",
+    "description": "Base",
+    "splashImageUrl": "https://base-merge.vercel.app/splash.svg",
+    "primaryCategory": "games",
+    "splashBackgroundColor": "#6200EA"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEzMTg2MDgsInR5cGUiOiJhdXRoIiwia2V5IjoiMHhFMzQxZEEwYTA5NjFCODViYjNmYzEzZjcxM2RlRDQwRTQyMTc1YkY4In0",
+    "payload": "eyJkb21haW4iOiJiYXNlLW1lcmdlLnZlcmNlbC5hcHAifQ",
+    "signature": "QSumigKoH5cPMULoNtTDLt/21pKUYW7DJNLfkiHWvdMg2qA0P9yxM+tg67ClguWopTjFf8KEdQUaj72WdEznXRw="
+  }
+}
