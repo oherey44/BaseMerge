@@ -1,5 +1,6 @@
 
 {
+<<<<<<< HEAD
 "frame": {
 "name": "Base Merge",
 "homeUrl": "https://base-merge-basemerge-app.vercel.app",
@@ -18,4 +19,24 @@
 "payload": "eyJkb21haW4iOiJiYXNlLW1lcmdlLWJhc2VtZXJnZS1hcHAudmVyY2VsLmFwcCJ9",
 "signature": "Cvno9A55ScK0QuYGjKBcBl3LHF5kMphxh2IuFauHUD1BxfGwbQ6WZJNrWqGVKEUnrR81Eu6vOrpd4r7qQcSI2Rw="
 }
+=======
+  "frame": {
+    "name": "Base Merge",
+    "homeUrl": "https://base-merge-basemerge-app.vercel.app",
+    "iconUrl": "https://base-merge-basemerge-app.vercel.app/icon.svg",
+    "version": "1",
+    "imageUrl": "https://base-merge-basemerge-app.vercel.app/image.svg",
+    "subtitle": "Base",
+    "webhookUrl": "https://base-merge-basemerge-app.vercel.app/api/webhook",
+    "description": "Base",
+    "splashImageUrl": "https://base-merge-basemerge-app.vercel.app/splash.svg",
+    "primaryCategory": "games",
+    "splashBackgroundColor": "#6200EA"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEzMTg2MDgsInR5cGUiOiJhdXRoIiwia2V5IjoiMHhFMzQxZEEwYTA5NjFCODViYjNmYzEzZjcxM2RlRDQwRTQyMTc1YkY4In0",
+    "payload": "eyJkb21haW4iOiJiYXNlLW1lcmdlLWJhc2VtZXJnZS1hcHAudmVyY2VsLmFwcCJ9",
+    "signature": "Cvno9A55ScK0QuYGjKBcBl3LHF5kMphxh2IuFauHUD1BxfGwbQ6WZJNrWqGVKEUnrR81Eu6vOrpd4r7qQcSI2Rw="
+  }
+>>>>>>> f7cc27c0 (base/farcaster miniapp manifests)
 }

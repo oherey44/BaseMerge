@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.base.org/schemas/app-config.schema.json",
+  "miniapp": {
+    "version": "1",
+    "name": "Base Merge",
+    "homeUrl": "https://base-merge-basemerge-app.vercel.app",
+    "iconUrl": "https://base-merge-basemerge-app.vercel.app/icon.svg",
+    "splashImageUrl": "https://base-merge-basemerge-app.vercel.app/splash.svg",
+    "splashBackgroundColor": "#6200EA",
+    "description": "Base",
+    "subtitle": "Base",
+    "webhookUrl": "https://base-merge-basemerge-app.vercel.app/api/webhook",
+    "primaryCategory": "games",
+    "requiredChains": ["eip155:8453"]
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEzMTg2MDgsInR5cGUiOiJhdXRoIiwia2V5IjoiMHhFMzQxZEEwYTA5NjFCODViYjNmYzEzZjcxM2RlRDQwRTQyMTc1YkY4In0",
+    "payload": "eyJkb21haW4iOiJiYXNlLW1lcmdlLWJhc2VtZXJnZS1hcHAudmVyY2VsLmFwcCJ9",
+    "signature": "Cvno9A55ScK0QuYGjKBcBl3LHF5kMphxh2IuFauHUD1BxfGwbQ6WZJNrWqGVKEUnrR81Eu6vOrpd4r7qQcSI2Rw="
+  }
+}
