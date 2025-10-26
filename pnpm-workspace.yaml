@@ -1,0 +1,13 @@
+packages:
+  - basemerge-app
+  - basemerge-web
+  - contracts
+onlyBuiltDependencies:
+  - esbuild
+  - keccak
+  - secp256k1
+  - "@biomejs/biome"
+  - bufferutil
+  - sharp
+  - "unrs-resolver"
+  - "utf-8-validate"
