@@ -14,9 +14,7 @@
 "splashBackgroundColor": "#6200EA"
 },
 "accountAssociation": {
-"header":
-"eyJmaWQiOjEzMTg2MDgsInR5cGUiOiJhdXRoIiwia2V5IjoiMHhFMzQxZEEwYTA5NjFCODViYjNmYzEzZjcxM2RlRDQwRTQyMTc1YkY4In0
-",
+"header": "eyJmaWQiOjEzMTg2MDgsInR5cGUiOiJhdXRoIiwia2V5IjoiMHhFMzQxZEEwYTA5NjFCODViYjNmYzEzZjcxM2RlRDQwRTQyMTc1YkY4In0",
 "payload": "eyJkb21haW4iOiJiYXNlLW1lcmdlLWJhc2VtZXJnZS1hcHAudmVyY2VsLmFwcCJ9",
 "signature": "Cvno9A55ScK0QuYGjKBcBl3LHF5kMphxh2IuFauHUD1BxfGwbQ6WZJNrWqGVKEUnrR81Eu6vOrpd4r7qQcSI2Rw="
 }
